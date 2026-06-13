@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: keiba-club
+    runtime: docker
+    plan: free
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: SECRET_TOKEN
+        generateValue: true
