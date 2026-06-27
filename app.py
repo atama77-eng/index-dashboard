@@ -140,6 +140,22 @@ section[data-testid="stSidebar"] h3 {
     letter-spacing: 0.05em;
 }
 
+/* サイドバー内のテキスト入力の文字色を白に */
+section[data-testid="stSidebar"] div[data-baseweb="input"] {
+    background-color: #2C6E8E !important;
+    border-color: #2C6E8E !important;
+}
+
+section[data-testid="stSidebar"] div[data-baseweb="input"] input {
+    color: #FFFFFF !important;
+    font-family: 'JetBrains Mono', monospace !important;
+}
+
+/* サイドバー内のラベル文字色 */
+section[data-testid="stSidebar"] label {
+    color: var(--text) !important;
+}
+
 /* テキスト入力 */
 div[data-baseweb="input"] {
     border-radius: 2px !important;
